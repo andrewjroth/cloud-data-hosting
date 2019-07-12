@@ -1,6 +1,6 @@
 # cloud-data-hosting
 
-=== App Config Options ===
+## App Config Options
 
 Settings can be configured in a file indicated by FLASK_SETTINGS.
 
