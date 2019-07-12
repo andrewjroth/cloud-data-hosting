@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Home</title>
+ </head>
+ <body>
+<h1>Index Home</h1>
+<table>
+    <tr><th valign=top>&nbsp;</th><th>Name</th><th>Description</th></tr>
+    <tr><th colspan="3"><hr></th></tr>
+{% for item in items %}    <tr><td valign=top>&nbsp;</td><td><a href="{{ item }}/">{{ item }}</a></td><td></td></tr>
+{% endfor %}
+    <tr><th colspan="3"><hr></th></tr>
+</table>
+
+ </body>
+</html>
